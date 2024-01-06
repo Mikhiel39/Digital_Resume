@@ -11,6 +11,49 @@
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + Meyawo main styles -->
     <link rel="stylesheet" href="assets/css/meyawo.css">
+    <style>
+        .dropbtn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+    </style>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
@@ -53,49 +96,41 @@
     <!-- portfolio section -->
     <section class="section" id="portfolio">
         <div class="container text-center">
-            <p class="section-subtitle">What I Did ?</p>
-            <h6 class="section-title mb-6">Projects</h6>
+            <!-- <p class="section-subtitle">What I Did ?</p> -->
+            <h6 class="section-title mb-6">Web Projects</h6>
             <!-- row -->
             <div class="row">
                 <div class="col-md-4">
-                    <a href="https://rb.gy/fl8uf" class="portfolio-card">
-                        <img src="assets/imgs/KTB.png" class="portfolio-card-img" alt="Killing the Boredom">
+                    <a href="https://new-apps-zeta.vercel.app/" class="portfolio-card">
+                        <img src="assets/imgs/NewsApp.png" class="portfolio-card-img" alt="News Website">
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
-                                <h4>Killing the Boredom</h5>
-                                    <p class="font-weight-normal">Category: Frontend and Backend Skills</p>
+                                <h4>News Website</h5>
                             </span>
                         </span>
                     </a>
-                    <small class="font-weight-normal"><a href="./web_project.html">More Web Projects</a></small>
                 </div>
                 <div class="col-md-4">
-                    <a href="https://tinyurl.com/452fz7rp" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/Pasc.png" class="img-responsive rounded"
-                            alt="PASC Alumni Portal">
+                    <a href="https://job-search-bay.vercel.app/" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/JobSearch.png"
+                            class="img-responsive rounded" alt="Job Search">
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
-                                <h4>PASC Alumni Portal</h5>
-                                    <p class="font-weight-normal">Category: Web Designing</p>
+                                <h4>Job Search</h5>
                             </span>
                         </span>
                     </a>
-                    <br>
-                    <small class="font-weight-normal"><a href="./web_design.html">More Web Design Projects</a></small>
                 </div>
                 <div class="col-md-4">
-                    <a href="https://shorturl.at/aotQ7" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/Sig.png" class="img-responsive rounded"
-                            alt="Sig Poster Template">
+                    <a href="https://movie-info-omega.vercel.app/" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/MovieInfo.png"
+                            class="img-responsive rounded" alt="MovieInfo">
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
-                                <h4>Sig Poster Template</h5>
-                                    <p class="font-weight-normal">Category: Graphic Designing</p>
+                                <h4>MovieInfo</h5>
                             </span>
                         </span>
                     </a>
-                    <br>
-                    <small class="font-weight-normal"><a href="https://tinyurl.com/3pdyvahx">More Graphic Design Projects</a></small>
                 </div>
             </div><!-- end of row -->
         </div><!-- end of container -->
